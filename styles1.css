@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #004080; /* Navy Blue */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.intro {
+    padding: 2rem;
+    text-align: center;
+    background: #e0f7fa; /* Light Teal */
+}
+
+.intro h1 {
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    margin-bottom: 1.5rem;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #004080; /* Navy Blue */
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.benefit h3 {
+    color: #008080; /* Teal */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    background: #e0f7fa; /* Light Teal */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-left: 5px solid #004080; /* Navy Blue */
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: #008080; /* Teal */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 1rem 0;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #006666; /* Darker Teal */
+}
+
+footer {
+    background: #004080; /* Navy Blue */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 0.5rem;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin-top: 1rem;
+}
